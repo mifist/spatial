@@ -1,0 +1,248 @@
+body{
+	font: 15px/1.5 Raleway, Arial, Helvetica, sans-serif;
+	font-weight: 300,400,700;
+	color: #ffffff;
+	min-width: 960px;
+	background: url("../img/overlay.png"), url("../img/banner.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	line-height: 1.75;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	display: inline-block;
+	color: #484848;
+	font-weight: 700;
+	font-size: 18px;
+	margin-bottom: 18px;
+}
+h2 {
+	font-size: 37px;
+}
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 16px;
+}
+p {
+	color: #aaa;
+	font-size: 15px;
+}
+a {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 4px;
+	color: #ffffff;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.ba-header nav a:hover,
+a:hover {
+	cursor: pointer;
+	color: #ffffff;
+}
+strong {
+	font-weight: 700;
+	font-size: 18px;
+}
+.wrapp {
+	height: 131px;		 	/*menu center*/
+	line-height: 131px;
+	margin-left: 46px;
+	margin-right: 37px;
+}
+.wrapp h1 {
+	color: #ffffff;
+	font-weight: normal;
+}
+.ba-container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.ba-header nav  li {
+	display: inline-block;
+	float: right;
+	margin-left: 50px;
+	font-weight: normal;
+}
+.ba-header nav li:last-child {
+	margin-left: -50px;
+}
+.ba-header nav  a {
+	color: #ddd;
+	font-size: 18px;
+	font-weight: 400;
+}
+.ba-header .banner {
+	padding:75px 0 161px 0;
+}
+.ba-header .banner h2 {
+	color: #ffffff;
+	line-height: 1.35;
+	margin-bottom: 18px;
+}
+.banner p {
+	margin: 0 0 38px 0;
+	color: #aaaaaa;
+	font-size: 22px;
+	text-transform: uppercase;
+}
+.ba-button,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+	background: #f32853;
+	color: #ffffff;
+	height: 63px;
+	line-height: 63px;
+	padding: 0 43px;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.ba-button:hover,
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover  {
+	cursor: pointer;
+	background-color: #F44066;
+	color: #ffffff;
+}
+.ba-luctus, .ba-fusce, .ba-mauris, .ba-aenean {
+	padding-top: 88px;
+	padding-bottom: 59px;
+}
+.ba-luctus, .ba-mauris {
+	background: #ffffff;
+}
+.ba-container-2 {
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.col1 h2, .col2 p, .row1 h2, .ba-mb, .ba-width-2-3 > p, .about, .ba-aenean a {
+	margin-bottom: 29px;
+}
+.col2 p, .ba-nemo, .ba-width-2-3 > p, .ba-footer > icon > li {
+	line-height: 29px;
+}
+.col1 p {
+	margin-top: -19px;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.col2 {
+	margin-left: 14px;
+}
+.col2 p {
+	padding-right: 1px;
+	color: #484848;
+}
+.ba-fusce, .ba-footer {
+	background: #F6F6F6;
+}
+.row1 {
+	margin-bottom: 59px;
+}
+.row1 h2 {
+	line-height: 55px;
+}
+.row1 p {
+	font-size: 19px;
+	text-transform: uppercase;
+	margin-top: -19px;
+	line-height: 29px;
+}
+img {
+	display: block;
+	width: 100%;
+}
+.ba-img {
+	width: 464px;
+	background: #FFFFFF;
+	margin-bottom: 59px;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 3px 0px;
+}
+.ba-img h3 {
+	padding: 40px 20px;
+	margin-bottom: 0;
+}
+.f-ba-button {
+	margin-left: 15px;
+	background: #323037;
+	transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.f-ba-button:hover {
+	cursor: pointer;
+	background: #3E3C45;
+	color: #ffffff;
+}
+.ba-nemo h4 {
+	line-height: 24px;
+	margin-bottom: 16px;
+}
+.ba-nemo p {
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	margin-top: -8px;
+	text-transform: uppercase;
+}
+.ba-width-2-3 > p {
+	color: #484848;
+}
+.ba-mauris .ba-container {
+	margin-bottom: 30px;
+}
+.ba-img-mauris > img {
+	border-radius: 100%;
+	border: solid 8px rgba(144, 144, 144, 0.25);
+}
+.ba-aenean .row1> h2 {
+	color: #ffffff;
+}
+.ba-aenean .row1 {
+	margin-bottom: 29px;
+}
+.ba-footer {
+	padding-top: 110px;
+	padding-bottom: 88px;
+}
+.ba-footer li {
+	display: inline-block;
+	margin-right: 28px;
+	margin-left: 28px;
+}
+.ba-footer li:last-child {
+	margin-right: 0;
+}
+.ba-footer a {
+	color: #aaa;
+	transition: color 0.2s ease-in-out;
+}
+.ba-footer a:hover {
+	color: #666666;
+}
+.icon {
+	margin-bottom: 44px;
+}
+.about li {
+	cofolor: #aaaaaa;
+	margin-left: 22px;
+	padding-left: 22px;
+	border-left: solid 1px rgba(144, 144, 144, 0.25);
+	margin-right: 0;
+}
+.about li:first-child {
+	border-left: none;
+}
+.about li a {
+	font-weight: normal;
+	font-size: 15px;
+	text-transform: none;
+}
