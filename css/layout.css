@@ -115,6 +115,23 @@
 	float: left;
 	padding-left: 20px;
 }
+/* More grids variation */
+.ba-grid-large-box{
+	margin-left: -33px;
+}
+.ba-grid-large-box > [class*="ba-width"]{
+	float: left;
+	padding-left: 33px;
+}
+
+.ba-grid-large-box-02{
+	margin-left: -48px;
+}
+.ba-grid-large-box-02 > [class*="ba-width"]{
+	float: left;
+	padding-left: 48px;
+}
+
 
 .ba-width-1-1 {
 	width: 100%;
